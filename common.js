@@ -305,7 +305,7 @@ function getDefaultToolCachePath() {
   const platform = getOSName()
   switch (platform) {
     case 'ubuntu':
-      return '/opt/hostedtoolcache'
+      return '/tmp/hostedtoolcache'
     case 'macos':
       return '/Users/runner/hostedtoolcache'
     case 'windows':
